@@ -25,13 +25,13 @@
     ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-** File Config ** ´edit file : mysqli.php´
+** File Config ** `edit file : mysqli.php`
 
     $mysqli = new mysqli("localhost", "root", "123456", "agenda_citas");
 
 
 ## Description
-Application web for register date's, reference for the build web  on ´docs/images´
+Application web for register date's, reference for the build web  on `docs/images`
 - 01 : Register =>  hour min and description (register basic)
 - 02 : Edit => edit date of date's
 - 03 : Delete => remove record of database.
@@ -39,5 +39,7 @@ Application web for register date's, reference for the build web  on ´docs/imag
 
 
 # image reference app
+
+---
 
 ![Image reference!](docs/images/reference.2015-06-17.png)
