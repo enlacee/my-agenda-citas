@@ -9,9 +9,9 @@
 ## php extension
  - PHP extension MySQLi
 
-## Configuration database
+## Installation 
 
-** Execute SQL **
+** Execute it SQL **
 
     CREATE DATABASE IF NOT EXISTS agenda_citas;
 
