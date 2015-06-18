@@ -11,23 +11,23 @@
 
 ## Configuration database
 
-* Execute SQL
+** Execute SQL **
 
-	CREATE DATABASE IF NOT EXISTS agenda_citas;
+    CREATE DATABASE IF NOT EXISTS agenda_citas;
 
-	DROP TABLE IF EXISTS `citas`;
-	CREATE TABLE `citas` (
-	  `id` int(11) NOT NULL AUTO_INCREMENT,
-	  `titulo` varchar(255) DEFAULT NULL,
-	  `fecha` datetime DEFAULT NULL,
-	  `date_created` datetime DEFAULT NULL,
-	  PRIMARY KEY (`id`)
-	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+    DROP TABLE IF EXISTS `citas`;
+    CREATE TABLE `citas` (
+      `id` int(11) NOT NULL AUTO_INCREMENT,
+      `titulo` varchar(255) DEFAULT NULL,
+      `fecha` datetime DEFAULT NULL,
+      `date_created` datetime DEFAULT NULL,
+      PRIMARY KEY (`id`)
+    ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
-* File Config ´edit file : mysqli.php´
+** File Config ** ´edit file : mysqli.php´
 
-	$mysqli = new mysqli("localhost", "root", "123456", "agenda_citas");
+    $mysqli = new mysqli("localhost", "root", "123456", "agenda_citas");
 
 
 ## Description
